@@ -35,8 +35,9 @@
         var repo = 'https://github.com/vmkazakoff/DL_Book'; // TODO: Update.
 
         window.$docsify = {
-            name: 'DocsifyJS Template', // TODO: Update.
-            repo: repo,
+            name: 'DL Book', 
+            repo: 'https://github.com/vmkazakoff/DL_Book',
+            loadNavbar: true
             auto2top: true,
             coverpage: true,
             loadSidebar: false,
@@ -44,9 +45,9 @@
 
             plugins: [
                 EditOnGithubPlugin.create(
-                    repo + '/blob/master/docs/',
+                    repo + '/blob/master/',
                     null,
-                    '📝 Edit on GitHub',
+                    '📝 Предложить исправления',
                 )
             ],
         }
